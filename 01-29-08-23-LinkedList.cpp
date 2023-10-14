@@ -34,7 +34,7 @@ public:
     {
         node *newNode = (node *)malloc(sizeof(node));
         newNode->data = val;
-        if (Head == NULL).
+        if (Head == NULL)
         {
             newNode->next = NULL;
             Head = newNode;
